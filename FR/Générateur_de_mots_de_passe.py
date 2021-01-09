@@ -21,7 +21,7 @@ while ifinput:
         lenght = int(input("Longueur du mot de passe: "))
         ifinput = False
     except ValueError:
-        print("Ungülige Zahl")
+        print("Erreur : numéro inexistant ou non valide")
         ifinput = True
 for character in charactersFile.readline():
     characterNumber += 1
