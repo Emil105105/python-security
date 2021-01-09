@@ -11,7 +11,7 @@
 
 import random
 ifinput = True
-charactersFile = open("caractère.txt", "r")
+charactersFile = open("caractères.txt", "r")
 numberTry = 0
 characterNumber = 0
 password = ""
